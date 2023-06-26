@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background: rgb(23,31,96);
+    background: linear-gradient(126deg, rgba(23,31,96,1) 15%, rgba(15,93,84,1) 100%);
+}
+.parent_box{
+    width: 820px;
+    height: 820px;
+    background: rgb(23,31,96);
+background: linear-gradient(310deg, rgba(23,31,96,1) 15%, rgba(15,93,84,1) 100%);
+    margin:70px 500px;
+    border-radius: 15px;
+    position: relative;
+}
+.child{
+    width: 80px;
+    height: 80px;
+}
+.child-1{
+    position: absolute;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border-radius: 15px;
+    left: 10px;
+    top: 10px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.child-1:hover{
+    width: 710px;
+    height: 170px;
+}
+.child-2{
+    position: absolute;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 15px;
+    right: 10px;
+    top: 100px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.child-2:hover{
+    width: 710px;
+}
+.child-3{
+    position: absolute;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    border-radius: 15px;
+    left: 10px;
+    top: 190px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.child-3:hover{
+    width: 710px;
+    height: 170px;
+    z-index: 10;
+}
+.child-4{
+    position: absolute;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    border-radius: 15px;
+    right: 10px;
+    top: 280px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.child-4:hover{
+    width: 710px;
+}
+.child-5{
+    position: absolute;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    border-radius: 15px;
+    left: 10px;
+    top: 370px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.child-5:hover{
+    width: 710px;
+    height: 170px;
+}
+.child-6{
+    position: absolute;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    border-radius: 15px;
+    right: 10px;
+    top: 460px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.child-6:hover{
+    width: 710px;
+}
+.child-7{
+    position: absolute;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    border-radius: 15px;
+    left: 10px;
+    top: 550px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.child-7:hover{
+    width: 710px;
+    height: 170px;
+}
+.child-8{
+    position: absolute;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    border-radius: 15px;
+    right: 10px;
+    top: 640px;
+    transition: 1.2s;
+    transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.child-8:hover{
+    width: 710px;
+}
+.child-9{
+    position: absolute;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    border-radius: 15px;
+    left: 10px;
+    top: 730px;
+    transition: 1.2s;
+}
+.child-9:hover{
+    width: 710px;
+}
